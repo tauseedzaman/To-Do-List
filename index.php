@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/w3.css">
-    <script src="css/jquery.js"></script>
-    <script src="css/bootstrap.bundle.js"></script>
-    <title>Document</title>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </head>
 <body class="bg-light">
     <div class="container">
@@ -20,7 +19,7 @@
             <div class="card w3-border-blue">
                 <div class="card-header w3-border-amber"><span class="w3-xxlarge" style="color:brown">What you will do today!</span>
                     <button class="btn btn-danger float-right mt-2 w3-hover-shadow" id="clear_all">Clear all</button>
-                    <button class="btn btn-info float-right mt-2 mx-2 w3-hover-shadow"" data-toggle="modal" id="add_action_btn" data-target="mymodal">Add Action</button>
+                    <button class="btn btn-info float-right mt-2 mx-2 w3-hover-shadow" data-toggle="modal" id="add_action_btn" data-target="mymodal">Add Action</button>
                 </div>
 <!--                All the list goes here-->
 <!--                the list is comming fromload_all_data_from_database file-->
