@@ -2,7 +2,7 @@
 My to do app.
 @Self database and table creation.
 @At will create datababase with name to_do_list.
-	The to_do_list at will create table named list.
+	In to_do_list database at will create table with name list.
 
 @Data insertion, deletion, updation, editing are performed with ajax.
 
